@@ -100,6 +100,14 @@ HOST: 127.0.0.1
 - [x] Created or edited `robots.txt` is in project root
 - [x] Add `admin-login.php` and `logger.php` in project root
 
+> **Information**
+>
+> If mod_rewrite is activated, it may not work because all inquiries, e.g. for CMS systems, are forwarded to the index via htaccess.
+>
+> And that's a good thing because the other pages or sub-folders should not be accessible.
+>
+> But most of the time it can be called up via the browser.
+
 <div align="center">
 
 # Conclusion
