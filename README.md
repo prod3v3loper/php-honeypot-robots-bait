@@ -1,17 +1,17 @@
 <div align="center">
 
-# 🍯 🐝
+## PHP HoneyPot Robots Bait
 
-# PHP HoneyPot Robots Bait
+# 🍯 🐝
 
 The goal is to confuse or distract the hacker.
 However, there are differences, automated or manual.
 
-## Manual
+### Manual
 
 In order to code an attack manually, one would also have to debug. Which means that it will not be enough on your test system.
 
-## Automatic
+### Automatic
 
 A finished tool, however, which is already more advanced, will not need this. Because these are programmed specifically for systems and run automatically. But both can be misled.
 
@@ -23,22 +23,22 @@ We issue a `robots.txt` if it doesn't exist. If there is one, we write the follo
 
 ```
 User-agent: *
-Disallow: /backdoor.php
+Disallow: /admin-login.php
 ```
 
 > **Malicious**
 >
-> If the bot or a hacker looks up the robots.txt and calls up the unauthorized pages, it is a sign of malicious intent.
+> If the bot or a hacker looks up the `robots.txt` and calls up the unauthorized pages, it is a sign of malicious intent.
 
-In this case the `robots.txt` serves as a bait in which we display a file with the important name` backdoor.php`, which is our honeypot.
+In this case the `robots.txt` serves as a bait in which we display a file with the important name `admin-login.php`, which is our honeypot.
 
 # Confuse
 
-In our honepot file, so in this example the `backdoor.php` contains the following information:
+In our honepot file, so in this example the `admin-login.php` contains the following information:
 
 > **Choose**
 >
-> The name for the file backdoor is freely chosen here and can be named as desired.
+> The name for the file `admin-login` is freely chosen here and can be named as desired.
 
 Our `logger.php` is located above the HTML, which writes the data to our `honeypot.log` file.
 
@@ -99,7 +99,7 @@ HOST: 127.0.0.1
 # Checking
 
 - [x] Created or edited `robots.txt`
-- [x] Add `backdoor.php` and `logger.php`
+- [x] Add `admin-login.php` and `logger.php`
 
 <div align="center">
 
