@@ -1,5 +1,3 @@
-<div align="center">
-
 # PHP 🍯 HoneyPot Robots Bait
 
 The goal is to confuse or distract the hacker.
@@ -12,8 +10,6 @@ In order to code an attack manually, one would also have to debug. Which means t
 ### Automatic
 
 A finished tool, however, which is already more advanced, will not need this. Because these are programmed specifically for systems and run automatically. But both can be misled.
-
-</div>
 
 # Bait
 
@@ -109,8 +105,6 @@ HOST: 127.0.0.1
 >
 > But it is mostly so that you can sometimes call it via the browser, because this was not prevented.
 
-<div align="center">
-
 # Conclusion
 
 This is a method to possibly receive information about an attack.
@@ -134,5 +128,3 @@ possible.
 # License
 
 [GNU](https://github.com/prod3v3loper/php-honeypot-robots-bait/blob/master/LICENSE) - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
-
-</div>
