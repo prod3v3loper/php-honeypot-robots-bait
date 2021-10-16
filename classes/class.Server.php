@@ -3,7 +3,7 @@
 /**
  * Description of Server
  * 
- * The abstract server class get the data and logger write the data in log file
+ * The abstract server class get the data
  *
  * @author      Samet Tarim
  * @copyright   (c) 2021, Samet Tarim

@@ -3,7 +3,7 @@
 /**
  * Description of HoneyPot
  * 
- * The abstract server class get the data and logger write the data in log file
+ * The logger write the data in log file
  *
  * @author      Samet Tarim
  * @copyright   (c) 2021, Samet Tarim
