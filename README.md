@@ -106,7 +106,7 @@ HOST: 127.0.0.1
 >
 > And that's a good thing because the other pages or sub-folders should not be accessible.
 >
-> But most of the time it can be called up via the browser.
+> But it is mostly so that you can sometimes call it via the browser, because this was not prevented.
 
 <div align="center">
 
