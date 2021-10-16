@@ -39,6 +39,7 @@ In our honepot file, so in this example the `admin-login.php` contains the follo
 > The name for the file `admin-login` is freely chosen here and can be named as desired.
 
 Our `logger.php` is located above the HTML, which writes the data to our `honeypot.log` file.
+And includes our two classes `class.HoneyPot.php` (Logging) and `class.Server.php` (Data)
 
 ```php
 <?php require_once 'logger.php'; ?>
@@ -67,11 +68,11 @@ We show the bot or hacker that it landed on a non-existent page, so we're just f
 
 # Refuse
 
-Once everything has been implemented, the attacker's data is written to a file with the help of the `logger.php`
+Once everything has been implemented, the attacker's data is written to a file with the help of the `class.HoneyPot.php`
 
 ## Log file permissions
 
-The rights for the file are therefore set in `logger.php`.
+The rights for the file are therefore set in `class.HoneyPot.php`.
 
 > **Important**
 >
