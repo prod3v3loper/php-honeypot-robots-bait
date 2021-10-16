@@ -96,8 +96,9 @@ HOST: 127.0.0.1
 
 # Checking
 
-- [x] Created or edited `robots.txt`
-- [x] Add `admin-login.php` and `logger.php`
+- [x] Add `classes` folder to project root
+- [x] Created or edited `robots.txt` is in project root
+- [x] Add `admin-login.php` and `logger.php` in project root
 
 <div align="center">
 
