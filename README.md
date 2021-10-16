@@ -1,3 +1,7 @@
+<div align="center">
+
+# 🍯 🐝
+
 # PHP HoneyPot Robots Bait
 
 The goal is to confuse or distract the hacker. However, there are differences, automated or manual.
@@ -9,6 +13,8 @@ In order to code an attack manually, one would also have to debug, which means t
 ## Automatic
 
 A finished tool, however, which is already more advanced, will not need this. Because these are programmed specifically for systems and run automatically. But both can be misled.
+
+</div>
 
 # Bait
 
