@@ -47,6 +47,8 @@ abstract class Server {
      */
     public static function getIP() {
 
+        $realIP = "No IP";
+
         self::$HTTP_X_FORWARDED_FOR = filter_input(INPUT_SERVER, 'HTTP_X_FORWARDED_FOR', FILTER_DEFAULT);
         self::$HTTP_CLIENT_IP = filter_input(INPUT_SERVER, 'HTTP_CLIENT_IP', FILTER_DEFAULT);
         self::$REMOTE_ADDR = filter_input(INPUT_SERVER, 'REMOTE_ADDR', FILTER_DEFAULT);
@@ -79,12 +81,11 @@ abstract class Server {
      */
     public static function getAgent() {
 
+        $httpUserAgent = "No Agent";
         self::$HTTP_USER_AGENT = filter_input(INPUT_SERVER, 'HTTP_USER_AGENT', FILTER_DEFAULT);
-
         if (self::$HTTP_USER_AGENT) {
             $httpUserAgent = self::$HTTP_USER_AGENT;
         }
-
         return $httpUserAgent;
     }
 
