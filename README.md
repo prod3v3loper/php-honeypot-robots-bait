@@ -101,7 +101,7 @@ There are of course many other options that I will present here.
 
 # Contribute
 
-Please an [issue](https://github.com/prod3v3loper/honeypot-simple-php/issues) if you
+Please an [issue](https://github.com/prod3v3loper/php-honeypot-robots-bait/issues) if you
 think something could be improved. Please submit Pull Requests when ever
 possible.
 
@@ -116,4 +116,4 @@ possible.
 
 # License
 
-[GNU](https://github.com/prod3v3loper/php-mvc-professional/blob/master/LICENSE) - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
+[GNU](https://github.com/prod3v3loper/php-honeypot-robots-bait/blob/master/LICENSE) - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
