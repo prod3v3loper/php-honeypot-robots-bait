@@ -1,8 +1,6 @@
 <div align="center">
 
-## PHP HoneyPot Robots Bait
-
-# 🍯 🐝
+# PHP 🍯 HoneyPot Robots Bait
 
 The goal is to confuse or distract the hacker.
 However, there are differences, automated or manual.
