@@ -4,11 +4,12 @@
 
 # PHP HoneyPot Robots Bait
 
-The goal is to confuse or distract the hacker. However, there are differences, automated or manual.
+The goal is to confuse or distract the hacker.
+However, there are differences, automated or manual.
 
 ## Manual
 
-In order to code an attack manually, one would also have to debug, which means that it will not be enough on your test system.
+In order to code an attack manually, one would also have to debug. Which means that it will not be enough on your test system.
 
 ## Automatic
 
@@ -100,6 +101,8 @@ HOST: 127.0.0.1
 - [x] Created or edited `robots.txt`
 - [x] Add `backdoor.php` and `logger.php`
 
+<div align="center">
+
 # Conclusion
 
 This is a method to possibly receive information about an attack.
@@ -123,3 +126,5 @@ possible.
 # License
 
 [GNU](https://github.com/prod3v3loper/php-honeypot-robots-bait/blob/master/LICENSE) - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
+
+</div>
