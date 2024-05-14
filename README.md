@@ -124,15 +124,10 @@ possible.
 
 # Authors
 
-**[Samet Tarim](https://www.prod3v3loper.com)** - _All works_
-
-# Supporter
-
-[Tnado](https://www.tnado.com/blog/)
-[Hyperly](https://www.hyperly.de)
+**Samet Tarim** [prod3v3loper](https://www.prod3v3loper.com) - _All works_
 
 # License
 
-[GNU](https://github.com/prod3v3loper/php-honeypot-robots-bait/blob/master/LICENSE) - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
+[GNU](https://github.com/prod3v3loper/php-honeypot-robots-bait/blob/master/LICENSE)
 
 </div>
